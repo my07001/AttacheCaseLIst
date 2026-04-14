@@ -107,7 +107,7 @@ namespace WpfTutorialSamples.ListView_control
 
             ProcessStartInfo pInfo = new ProcessStartInfo();
             pInfo.UseShellExecute = true;
-            pInfo.FileName = "C:\\Program Files (x86)\\AttacheCase3\\AttacheCase.exe";
+            pInfo.FileName = "C:\\Program Files (x86)\\AttacheCase4\\AttacheCase.exe";
 
             AttacheFile ta = (AttacheFile)targetItem.SelectedValue;
             pInfo.Arguments = '\"' + ta.name + '\"';
